@@ -5,3 +5,27 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+
+STARTING UP.............................
+  Date and Time:    2024-05-12 at 01:07 PM
+  Operating System: nt Windows 10
+  Python Version:   3.11.9
+  Path to Interpreter:  C:\Users\desir\webminenv\Scripts\python.exe
+======================================================================
+
+2024-05-12 13:07:29,606 - INFO - Called recreate_database().
+2024-05-12 13:07:29,606 - INFO - Called drop_table().
+2024-05-12 13:07:29,615 - INFO - Table 'pets' dropped successfully.
+2024-05-12 13:07:29,616 - INFO - Called create_table().
+2024-05-12 13:07:29,624 - INFO - Table 'pets' created successfully.
+2024-05-12 13:07:29,899 - INFO - Called process_one().
+2024-05-12 13:07:29,900 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2024-05-12 13:07:29,904 - INFO - Called process_two().
+2024-05-12 13:07:29,904 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2024-05-12 13:07:29,942 - INFO - Called process_three().
+2024-05-12 13:07:29,943 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2024-05-12 13:07:32,908 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2024-05-12 13:07:35,437 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
+2024-05-12 13:07:35,438 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2024-05-12 13:07:35,453 - ERROR - ERROR while P3 inserting pet Emma: database is locked
+2024-05-12 13:07:35,454 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.

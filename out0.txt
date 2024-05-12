@@ -5,3 +5,25 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+STARTING UP.............................
+  Date and Time:    2024-05-12 at 01:14 PM
+  Operating System: nt Windows 10
+  Python Version:   3.11.9
+  Path to Interpreter:  C:\Users\desir\webminenv\Scripts\python.exe
+======================================================================
+
+2024-05-12 13:14:33,067 - INFO - Called recreate_database().
+2024-05-12 13:14:33,067 - INFO - Called drop_table().
+2024-05-12 13:14:33,072 - INFO - Table 'pets' dropped successfully.
+2024-05-12 13:14:33,073 - INFO - Called create_table().
+2024-05-12 13:14:33,079 - INFO - Table 'pets' created successfully.
+2024-05-12 13:14:33,284 - INFO - Called process_one().
+2024-05-12 13:14:33,284 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2024-05-12 13:14:33,321 - INFO - Called process_two().
+2024-05-12 13:14:33,322 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2024-05-12 13:14:33,356 - INFO - Called process_three().
+2024-05-12 13:14:33,358 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2024-05-12 13:14:34,293 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2024-05-12 13:14:36,341 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2024-05-12 13:14:38,374 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.

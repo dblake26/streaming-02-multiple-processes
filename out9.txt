@@ -1,0 +1,33 @@
+2024-05-12 14:16:58,271 - INFO - ===============================================
+2024-05-12 14:16:58,272 - INFO - Starting fake streaming process.
+2024-05-12 14:16:58,272 - INFO - Starting to stream data from storygraph_export.csv to ('localhost', 9999).
+2024-05-12 14:16:58,273 - INFO - Opened for reading: storygraph_export.csv.
+2024-05-12 14:16:58,275 - INFO - Skipped header row: ['Title', 'Authors', 'Contributors', 'ISBN/UID', 'Format', 'Read Status', 'Date Added', 'Last Date Read']
+2024-05-12 14:16:58,285 - INFO - Sent: b'[The Lessons We Learn, Alexandra Warren, , , , read, 10/12/2022, 10/13/2022]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:01,289 - INFO - Sent: b'[Mister Concierge, B. Love, , , digital, read, 4/1/2024, 3/27/2024]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:04,291 - INFO - Sent: b'[Forgive, Nikki Blaire, , , digital, read, 1/21/2023, 1/22/2023]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:07,294 - INFO - Sent: b'[InstaLove, Danielle Allen, , , digital, read, 3/14/2023, 3/15/2023]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:10,298 - INFO - Sent: b'[Nobody But You, Skye Moon, Bella Jay, , digital, read, 8/2/2022, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:13,299 - INFO - Sent: b'[Chasing Empty Hearts, Chelsea Maria, , , digital, read, 10/7/2022, 10/10/2022]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:16,302 - INFO - Sent: b'[Sinful Desire, Asia Monique, Asia Monique, , , digital, read, 2/8/2023, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:19,304 - INFO - Sent: b'[Red at the Bone, Jacqueline Woodson, , 9.78053E+12, hardcover, to-read, 4/8/2022, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:22,307 - INFO - Sent: b'[The Guest List, Lucy Foley, , 9.78001E+12, paperback, read, 3/16/2023, 4/10/2022]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:25,311 - INFO - Sent: b'[Sunny Disposition, Deanna Grey, , , digital, read, 1/8/2023, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:28,313 - INFO - Sent: b"[What's Best For Me : Unapologetically Me Series, Danesha Little, , , digital, read, 5/4/2023, 5/5/2023]" on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:31,317 - INFO - Sent: b'[Where Love Blooms, Kimberly Brown, , , digital, read, 2/5/2023, 2/7/2023]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:34,354 - INFO - Sent: b'[Women Who Run with the Wolves: Myths and Stories of the Wild Woman Archetype, Clarissa Pinkola Est\xc3\x83\xc2\xa9s, , 9.78035E+12, paperback, currently-reading, 1/22/2024, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:37,357 - INFO - Sent: b'[Hammered (Preston Brothers Book Two_, Nicole Falls, Nicole Falls, , , , read, 5/7/2023, 5/17/2023]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:40,359 - INFO - Sent: b'[Rush, Maya Banks, , 9.78043E+12, paperback, read, 7/2/2022, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:43,363 - INFO - Sent: b'[Black Girls Must Be Magic, Jayne Allen, , 9.78006E+12, hardcover, read, 3/26/2022, 3/27/2022]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:46,366 - INFO - Sent: b'[If You Let Go, K.C. Mills, , , digital, read, 8/22/2022, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:49,368 - INFO - Sent: b'[Team Players, Deanna Grey, , B0BJ2YTGJR, digital, read, 1/8/2023, 1/12/2023]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:52,371 - INFO - Sent: b'[Heaven Sent, Shon, , B0CWLNZ91L, digital, read, 3/11/2024, 3/11/2024]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:55,373 - INFO - Sent: b'[The Gift of Fear: Survival Signals That Protect Us from Violence, Gavin de Becker, , 9.78075E+12, paperback, to-read, 5/8/2022, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-12 14:17:58,377 - INFO - Sent: b'[ Love Me , Tiffany Patterson, , , digital, read, 3/3/2024, 3/4/2024]' on port 9999. Hit CTRL-c to stop.
+Traceback (most recent call last):
+  File "c:\Users\desir\streaming-02-multiple-processes\process_streaming_desiree.py", line 78, in <module>
+    stream_row(INPUT_FILE_NAME, ADDRESS_TUPLE)
+  File "c:\Users\desir\streaming-02-multiple-processes\process_streaming_desiree.py", line 68, in stream_row
+    time.sleep(3) # wait 3 seconds between messages
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
